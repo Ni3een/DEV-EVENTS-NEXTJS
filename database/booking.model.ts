@@ -66,7 +66,6 @@ bookingSchema.pre('save', async function (next) {
       return next(new Error('Failed to validate event reference'));
     }
   }
-
   next();
 });
 
